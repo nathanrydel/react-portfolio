@@ -16,7 +16,7 @@ function Hero() {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img className="w-[340px] h-[340px]" src={HERO} alt="Nathan Rydel" />
+            <img className="size-[340px]" src={HERO} alt="Nathan Rydel" />
           </div>
         </div>
       </div>
