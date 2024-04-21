@@ -1,3 +1,4 @@
+import { ABOUT_TEXT } from "../assets/db";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">About Text</p>
+            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
           </div>
         </div>
       </div>
