@@ -1,4 +1,6 @@
 import HERO from '../assets/RydelHeadshot.webp';
+import { HERO_CONTENT } from '../assets/db';
+
 function Hero() {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-3.5">
@@ -10,7 +12,7 @@ function Hero() {
             </h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</span>
             <p className="my-2 max-w-xl py-6 font-light text-center lg:text-start tracking-tighter">
-              I am a passionate <span className="font-bold italic">Full Stack Developer</span> with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express, Flask, and PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
+              {HERO_CONTENT}
             </p>
           </div>
         </div>
