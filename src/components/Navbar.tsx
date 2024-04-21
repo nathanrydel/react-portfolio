@@ -4,13 +4,17 @@ function Navbar() {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex shrink-0 items-center">
-        <span className="text-4xl">
-          Nathan Rydel
+        <span className="mx-2 text-3xl">
+          Nr
         </span>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a href="https://github.com/nathanrydel">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/nathan-rydel/">
+          <FaLinkedin />
+        </a>
       </div>
     </nav>
   );
