@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# The Personal Website of Nathan Rydel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="airNRDevReport.png">
+</p>
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-blue.svg" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.2.2-blue.svg" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4.3-cyan.svg" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Vite-5.2.0-purple.svg" alt="Vite">
+</p>
 
-## Expanding the ESLint configuration
+This is a portfolio site built using React, TypeScript, Tailwind CSS, and Vite.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Setup a local copy
 
-- Configure the top-level `parserOptions` property like this:
+To run this project locally, follow these steps:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nathanrydel/react-portfolio.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+```bash
+cd your-repository
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Open your browser and visit `http://localhost:5173` to view the app.
+
+6. Build:
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+This will create an optimized build of your app in the dist directory.
